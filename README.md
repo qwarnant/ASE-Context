@@ -1,7 +1,7 @@
 ASE-Context
 ===========
 Binôme : WARNANT Quentin & DURIGNEUX Antoine
-Date : 11/12/2014
+Date : 04/01/2014
 
 Lors de l'éxécution de prodcons, un buffer de taille 100 est créé, ainsi que deux contextes : producer et consumer.
 Le premier exécute une fonction de production d'objets et les place dans le buffer tandis que le second exécute 

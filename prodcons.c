@@ -79,10 +79,10 @@ void put_object() {
 	printf("Put_object\n");
 }
 void remove_object() {
-	sleep(consumer_sleep_time);
 	printf("\tRemove_object\n");
 }
 void use_object() {
+	sleep(consumer_sleep_time);
 	printf("\tUse_object\n");
 }
 
