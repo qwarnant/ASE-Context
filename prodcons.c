@@ -66,7 +66,7 @@ void consumer(void *args) {
 		sem_up(&mutex);
 		sem_up(&empty);
 		use_object();
-		printf("Retirer E:%d F:%d \n", empty.sem_cpt, full.sem_cpt);
+		printf("\tRetirer E:%d F:%d \n", empty.sem_cpt, full.sem_cpt);
 	}
 }
 
@@ -80,9 +80,9 @@ void put_object() {
 }
 void remove_object() {
 	sleep(consumer_sleep_time);
-	printf("Remove_object\n");
+	printf("\tRemove_object\n");
 }
 void use_object() {
-	printf("Use_object\n");
+	printf("\tUse_object\n");
 }
 
